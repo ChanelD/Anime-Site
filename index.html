@@ -1,40 +1,78 @@
 <!DOCTYPE html>
-<html>
-  <head>
-    <title>Layout Example</title>
-    <link rel="stylesheet" href="CSS/layoutStyle.css">
-  </head>
-  <body>
-    <div class="header">
-      <h1>Chanel's Anime Site</h1>
-    </div>
-    <div class="topnav">
-      <a href="index.html">Home</a>
-      <a href="favoriteAnime.html">Favorite Anime</a>
-      <a href="contactMe.html">Contact Me</a>
-    </div>
-    <div class="row">
-      <div class="column">
-        <h2>About Me</h2>
-        <ol>
-          <li>I am Vietnamese</li>
-          <li>I like pastel colors</li>
-          <li>I am an introvert</li>
-        </ol>
-      </div>
+<html lang="en">
+<head>
+  <title>Chanel's Anime Site 2.0</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css">
+  <script src="https://cdn.jsdelivr.net/npm/jquery@3.6.0/dist/jquery.slim.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.bundle.min.js"></script>
+  .carousel-inner img {
+     width: 100%;
+     height: 100%;
+   }
+   </style>
+</head>
+<body>
 
-      <div class="column">
-        <h2>Future Me</h2>
-        <p>I want to be a traveler when I grow up. I want to have a remote job so I can travel the world. I will settle down eventually.</p>
-      </div>
+  <div class="jumbotron text-center">
+    <h1>Chanel's Anime Corner</h1>
+    <p>Home</p>
+  </div>
 
-      <div class="column">
-        <h2>Anime Sites</h2>
-        <p>You can find anime on legal or illegal site. Legal sites are Crunchyroll or Funimation. Illegal sites need to searched and not shared as to not get the site taken down.</p>
-      </div>
+<div>
+  <nav class="navbar navbar-expand-sm bg-dark navbar-dark">
+    <ul class="navbar-nav">
+      <li class="nav-item">
+        <a class="nav-link" href="index.html">Home</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="favoriteAnime.html">Favorite Anime</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="contactMe.html">Contact Me</a>
+      </li>
+    </ul>
+  </nav>
+  <br>
+</div>
+
+<div class="row text-center">
+  <div class="col-12">
+    <h2>About Me</h2>
+    <br>
+  <div class="row">
+    <div class="col-sm-4">I am Vietnamese</div>
+    <div class="col-sm-4">I like Thai Tea</div>
+    <div class="col-sm-4">I like reading</div>
+  </div>
+  <br>
+      <img src="IMG/vietnam.JPEG" class="float-left img-thumbnail col-sm-4" alt="Vietnam" width="400" height="400">
+      <img src="IMG/thaiTea.JPEG" class="float-center img-thumbnail col-sm-4" alt="Thai Tea" width="100" height="100">
+      <img src="IMG/books.JPEG" class="float-right img-thumbnail col-sm-4" alt="Books" width="400" height="400">
+  </div>
+</div>
+<br>
+<div class="container-fluid p-5 bg-info text-white text-center">
+    <h2>Future Me</h2>
+    <br>
+    <p>
+      I want to be a traveler when I grow up.
+      I want to have a remote job so I can travel the world.
+      I will settle down eventually.
+    </p>
+  </div>
+  <br>
+  <div class="container-fluid p-5 bg-info text-white text-center">
+      <h2>Anime Sites</h2>
+      <br>
+      <p>
+        You can find anime on legal or illegal site.
+        Legal sites are Crunchyroll or Funimation.
+        Illegal sites need to searched and not shared as to not get the site taken down.
+      </p>
     </div>
-    <div class="footer">
-      <p>Anime spans all genres which garuntees that there will be an anime for someone to watch and love.</p>
-    </div>
-  </body>
+
+</body>
 </html>
